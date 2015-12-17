@@ -56,7 +56,7 @@ var jsonfilename;
 
 
 var tweets_db = [];
-MongoClient.connect("mongodb://localhost:27017/lab10", function(err, database) {
+MongoClient.connect("mongodb://localhost:27017/WebFrameworkDemo", function(err, database) {
   if (err)
     return console.dir(err);
   var collection = database.collection('tweets');
